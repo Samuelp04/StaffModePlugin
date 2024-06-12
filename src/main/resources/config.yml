@@ -1,0 +1,25 @@
+# Plugin configuration
+plugin:
+  prefix: "&7[&bStaffMode&7] "
+
+# Staff mode configuration
+staff-mode:
+  enabled-message: "&aStaff mode enabled."
+  disabled-message: "&aStaff mode disabled."
+  items:
+    freeze-player:
+      material: ICE
+      display-name: "&cFreeze Player"
+      slot: 0
+    check-inventory:
+      material: COMPASS
+      display-name: "&eCheck Inventory"
+      slot: 1
+    teleport-gui:
+      material: NETHER_STAR
+      display-name: "&bTeleport GUI"
+      slot: 2
+    vanish-toggle:
+      material: EYE_OF_ENDER
+      display-name: "&aVanish Toggle"
+      slot: 3

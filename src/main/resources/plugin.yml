@@ -1,0 +1,11 @@
+name: StaffModePlugin
+version: '${project.version}'
+main: org.sammyp.staffmodeplugin.StaffModePlugin
+api-version: '1.20'
+author: SwiftyNifty23
+description: A versatile staff mode plugin for Minecraft servers, providing tools to manage players effectively with freeze, inventory check, teleportation GUI, and vanish toggle functionalities.
+
+commands:
+  staffmode:
+    description: Toggle staff mode
+    usage: /staffmode <on/off>
